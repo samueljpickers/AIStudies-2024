@@ -1,3 +1,5 @@
+# Pantograph Detector: this program is a proof-of-concept object detector that finds and graphs the intersection ...
+# ... between a power line and a pantograph in a video (see PantographDetectorOriginal.mp4).
 # 0 Set-Up
 import cv2 as cv
 import numpy as np
