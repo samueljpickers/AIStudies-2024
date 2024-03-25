@@ -14,7 +14,7 @@ x_trajectory = []  # x_trajectory: the x trajectory of the intersection point.
 y_trajectory = []  # y_trajectory: the y trajectory of the intersection point.
 
 # 1 Loading and Pre-Processing
-video = cv.VideoCapture("C:/Users/sjp20/OneDrive/Documents/2024/Semester 1/ELEC4630/A1 Resources/Panto2024.mp4")
+video = cv.VideoCapture("Panto2024.mp4")
 while video.isOpened():
     ret, frame = video.read()
     if not ret:
