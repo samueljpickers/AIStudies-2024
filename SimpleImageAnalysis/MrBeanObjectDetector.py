@@ -1,4 +1,5 @@
-# Mr Bean Object Detector: This program is a proof-of-concept object detector that detects a broom, wheels and road line in an image of Mr Bean (see MrBeanObjectDetectorOriginal.png)
+# Mr Bean Object Detector: This program is a proof-of-concept object detector that detects a broom, wheels and ...
+# road line in an image of Mr Bean (see MrBeanObjectDetectorOriginal.png).
 # 0 Set-Up
 import cv2 as cv
 import numpy as np
