@@ -111,7 +111,6 @@ while video.isOpened():
 video.release()
 
 # 5.2 Plot Solution
-plt.clf()
 plt.figure(figsize = (12, 6))
 
 plt.subplot(1, 2, 1)
