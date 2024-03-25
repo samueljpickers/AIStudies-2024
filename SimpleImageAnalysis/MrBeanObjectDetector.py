@@ -1,8 +1,9 @@
+# Mr Bean Object Detector: This program is a proof-of-concept object detector that detects a broom, wheels and road line in an image of Mr Bean (see MrBeanObjectDetectorOriginal.png)
 # 0 Set-Up
 import cv2 as cv
 import numpy as np
 
-image_bgr = cv.imread("C:/Users/sjp20/OneDrive/Documents/2024/Semester 1/ELEC4630/A1 Resources/MrBean2024.jpg")
+image_bgr = cv.imread("MrBeanObjectDetectorOriginal.png")
 image_hsv = cv.cvtColor(image_bgr, cv.COLOR_BGR2HSV)
 image_rgb = cv.cvtColor(image_bgr, cv.COLOR_BGR2RGB)
 
