@@ -105,7 +105,7 @@ while video.isOpened():
 # 5.1 Image Solution
     cv.circle(frame, (int(x_target), int(y_target)), 5, (0, 0, 255), -1)
     cv.imshow('Frame', frame)
-    cv.waitKey(0)
+    cv.waitKey(10)
     n_frame += 1
 
 video.release()
